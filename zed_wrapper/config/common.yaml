@@ -102,8 +102,8 @@
 
         mapping:
             mapping_enabled: true # True to enable mapping and fused point cloud pubblication
-            resolution: 0.1 # maps resolution in meters [min: 0.01f - max: 0.2f]
-            max_mapping_range: 5.0 # maximum depth range while mapping in meters (-1 for automatic calculation) [2.0, 20.0]
+            resolution: 0.2 # maps resolution in meters [min: 0.01f - max: 0.2f]
+            max_mapping_range: 10.0 # maximum depth range while mapping in meters (-1 for automatic calculation) [2.0, 20.0]
             fused_pointcloud_freq: 1.0 # frequency of the publishing of the fused colored point cloud
             clicked_point_topic: "/clicked_point" # Topic published by Rviz when a point of the cloud is clicked. Used for plane detection
             pd_max_distance_threshold: 0.15 # Plane detection: controls the spread of plane by checking the position difference.
